@@ -1,0 +1,21 @@
+.goals {
+    margin-top: 2rem;
+    &__titles {
+        width: 100%;
+        display: flex;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    &__title {
+        flex-basis: 50%;
+        &--rewards {
+            margin-left: 2rem;
+        }
+    }
+
+    &__section {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+}

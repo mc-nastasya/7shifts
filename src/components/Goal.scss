@@ -1,0 +1,48 @@
+.goal {
+    border: 1px solid #E0E0E0;
+    border-radius: .625rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 50%;
+    align-items: center;
+    &__header {
+        flex-basis: 100%;
+        align-self: flex-start;
+        margin-bottom: auto;
+    }
+    &__blocks {
+        width: 100%;
+        display: flex;
+    }
+    &__block {
+        flex-basis: 50%;
+    }
+    &__number {
+        font-size: 2.625rem;
+        line-height: 2.75rem;
+        color: #000;
+    }
+    &__title {
+        width: 100%;
+    }
+    &__text {
+        text-align: center;
+    }
+    &__image {
+        width: 15.625rem;
+    }
+    &__posttext {
+        font-size: 1.25rem;
+        line-height: 24px;
+    }
+}
+
+.green {
+    color: #277E71;
+}
+.red {
+    color: #CF5C5C;
+
+}

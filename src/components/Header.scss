@@ -1,0 +1,173 @@
+.navigation {
+    width: 100%;
+    height: 4.125rem;
+    background-color: #32295C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+
+    &__left {
+        display: flex;
+        align-items: center;
+
+        font-size: .875rem;
+        color: white;
+        font-weight: 400;
+
+    }
+
+    &__middle {
+        display: flex;
+        justify-content: space-around;
+        min-width: 50%;
+        font-size: .875rem;
+        color: white;
+        font-weight: 400;
+
+        &--dashboard {
+            display: flex;
+            align-items: center;
+        }
+
+        &--schedule {
+            display: flex;
+            align-items: center;
+        }
+
+        &--availability {
+            display: flex;
+            align-items: center;
+        }
+
+        &--shift-pool {
+            display: flex;
+            align-items: center;
+        }
+
+        &--time-off {
+            display: flex;
+            align-items: center;
+        }
+
+        &--engagement {
+            display: flex;
+            align-items: center;
+            padding: 1.35rem 0;
+            border-bottom: 2px solid white;
+        }
+
+    }
+
+    &__right {
+        display: flex;
+        gap: 1rem;
+
+    }
+}
+
+.navigation__right--logo {
+    width: 1.3088rem;
+    height: 1.545rem;
+}
+
+span {
+    padding-left: .75rem;
+}
+
+.our-values {
+    padding: 2rem 0;
+    margin-bottom: 0;
+
+}
+
+.values {
+    display: flex;
+    gap: 4.4375rem;
+
+
+    &__card-one {
+        width: 17.875rem;
+        height: 18.8125rem;
+        border: 1px solid #E0E0E0;
+        border-radius: 4px;
+
+    }
+
+    &__card-two {
+        width: 17.875rem;
+        height: 18.8125rem;
+        border: 1px solid #E0E0E0;
+        border-radius: 4px;
+    }
+
+    &__card-three {
+        width: 17.875rem;
+        height: 18.8125rem;
+        border: 1px solid #E0E0E0;
+        border-radius: 8px;
+    }
+
+    &__respect {
+        text-align: center;
+        padding: 1.5rem 1.125rem 0 1.125rem;
+
+        &--title {
+            font-weight: 400;
+            line-height: 2rem;
+            margin-top: -.5rem;
+        }
+
+        &--tag {
+            font-size: .875rem;
+            color: #787878;
+            line-height: 16px;
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+        }
+
+    }
+
+    &__communication {
+        text-align: center;
+        padding: 1.5rem 1.125rem 0 1.125rem;
+
+
+        &--title {
+            font-weight: 400;
+            line-height: 2rem;
+            margin-top: -.5rem;
+
+        }
+
+        &--tag {
+            font-size: .875rem;
+            color: #787878;
+            line-height: 16px;
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+        }
+    }
+
+    &__teamwork {
+        text-align: center;
+        padding: 1.5rem 1.125rem 0 1.125rem;
+
+        &--title {
+            font-weight: 400;
+            line-height: 2rem;
+            margin-top: -.5rem;
+        }
+
+        &--tag {
+            font-size: .875rem;
+            color: #787878;
+            line-height: 16px;
+
+        }
+    }
+
+}
