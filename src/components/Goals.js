@@ -57,7 +57,7 @@ function Goals() {
     
     useEffect (()=>{
         
-        setDaysLeft(0)
+        setDaysLeft(2)
     //goal1
         setGoal1Type(goal1TypeIs)
         setGoal1NumberValue(goal1Number)
@@ -96,6 +96,7 @@ function Goals() {
             daysLeft={daysLeft}
             rewardAchieved={reward1Achieved}
             setRewardAchieved={setReward1Achieved}
+            rewardNumber={rewardValue}
          />
          <Goal 
             goalType={goal2Type}
