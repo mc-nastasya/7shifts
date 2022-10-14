@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# This is the hackathon project for 7Shifts for 24 hours
 
 ## Available Scripts
 
